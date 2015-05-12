@@ -41,6 +41,9 @@ public class JWTInteractiveValidator {
 
       System.out.println( "Enter the JWT you wish to verify: " );
       jwtString = scanner.next();
+
+      System.out.println( "Enter the audience for the jwt" );
+      audience = scanner.next();
     }
 
 

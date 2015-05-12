@@ -35,7 +35,7 @@ public final class TokenValidator {
       return result;
 
     } catch ( InvalidJwtException ije ) {
-      System.err.println("Error processing JWT: " + ije.getMessage());
+      System.out.println("Error processing JWT: " + ije.getMessage());
       return null;
     }
   }
